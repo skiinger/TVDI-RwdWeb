@@ -1,0 +1,32 @@
+.allbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.584);
+    width: 300px;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 1s;
+}
+
+.box:hover {
+    background-color: rgba(198, 132, 32, 0.53);
+    transform: translate(-4px, -4px) scale(0.5) skew(5deg);
+    box-shadow: black 2px 2px 5px;
+
+}
+
+.box img {
+    transition: all 1s;
+
+}
+
+.box:hover img {
+    border-radius: 50%;
+
+}

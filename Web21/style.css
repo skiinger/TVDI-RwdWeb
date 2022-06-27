@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體";
+}
+
+.header {
+    height: 120px;
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.header h3 {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    display: none;
+}
+
+.header ul {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    display: flex;
+}
+
+.header .close {
+    display: none;
+}
+
+
+.header li {
+    list-style: none;
+}
+
+.header li a {
+    margin: 0 5px;
+}
+
+.header li a:hover {}
+
+.banner {}
+
+.banner img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.office {
+    justify-content: center;
+    display: flex;
+}
+
+.office .ofbox {
+    width: 360px;
+    margin: 1rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.office .ofbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.office .ofbox p {}
+
+.ad {
+    display: flex;
+}
+
+.adbox {}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .navbox {
+    width: 15%;
+    margin: 2%;
+}
+
+.nav .navbox p {}
+
+.nav .navbox ul {}
+
+.nav .navbox li {
+    list-style: none;
+}
+
+.nav .navbox li a {}
+
+.nav .navbox li a:hover {}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20PX;
+}
+
+.footer h2 {}
+
+.footer p {}
+
+/*平板*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+
+    .office {
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 45%;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .office .ofbox img {}
+
+    .office .ofbox p {}
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 50%;
+    }
+
+    .ad img {}
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 30%;
+    }
+
+}
+
+/*手機*/
+@media screen and (max-width:768px) {
+    .header h3 {
+        display: block;
+    }
+
+    .header ul {
+        position: absolute;
+        right: 30px;
+        top: 70px;
+        width: 200px;
+        background-color: rgb(74, 69, 69);
+        padding: 20px;
+        display: none;
+    }
+
+    .header li {
+        list-style: none;
+    }
+
+    .header .close {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(255, 2, 2);
+        color: #FFF;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        right: -5px;
+        top: -5px;
+    }
+
+    .header li a {
+        display: block;
+        background-color: rgb(102, 100, 69);
+        margin: 10px 0;
+        height: 40px;
+        line-height: 40px;
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .header li a:hover {}
+
+    .office {
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 90%;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .office .ofbox img {}
+
+    .office .ofbox p {}
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 100%;
+    }
+
+    .ad img {}
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 60%;
+    }
+}

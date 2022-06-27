@@ -1,0 +1,24 @@
+h1 {}
+
+h2 {}
+
+p {
+    background-color: beige;
+    width: 500px;
+    height: 500px;
+}
+
+a {
+    color: cyan;
+    background-color: blueviolet;
+    display: block;
+    width: 100px;
+    height: 60px;
+
+}
+
+a:hover {
+    display: block;
+    width: 110px;
+    height: 70px;
+}

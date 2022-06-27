@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+div {
+    background-image: url(box.png);
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+
+
+h1 {}
+
+a {
+    background-image: url(btn01.png);
+    width: 300px;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    text-indent: 80px;
+}
+
+a:hover {
+    background-image: url(btn02.png);
+    text-shadow: 12px 12px rgba(65, 0, 0, 0.555);
+
+}

@@ -1,0 +1,14 @@
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: chartreuse;
+    text-decoration: overline underline;
+}
+
+p:hover {
+    background-color: darkkhaki;
+}

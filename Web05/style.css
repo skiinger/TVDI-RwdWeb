@@ -1,0 +1,27 @@
+a {
+    background-color: aquamarine;
+    color: rgb(226, 231, 159);
+    display: block;
+    padding: 50px;
+    width: 70px;
+    text-align: center;
+    border-top: 10px double rgb(212, 154, 154);
+    box-shadow: 10px 10px 10px 0 #417377;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(56, 59, 15, 0.49343487394957986) 26%, rgba(43, 189, 92, 0.2413340336134454) 42%, rgba(0, 212, 255, 1) 63%, rgba(255, 0, 121, 1) 88%);
+
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+    line-height: 140px;
+    border: 5px dotted #00eeff;
+    border-radius: 50% 50%;
+    text-shadow: 10px 10px red;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(117, 106, 191, 1) 24%, rgba(114, 190, 152, 0.6026785714285714) 44%, rgba(196, 108, 84, 1) 74%, rgba(253, 45, 98, 1) 100%);
+
+}

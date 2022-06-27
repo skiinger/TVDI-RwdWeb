@@ -1,0 +1,50 @@
+body,
+html {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+td.lll {
+    background-color: gray;
+
+}
+
+td.lll p {
+    color: white;
+    padding: 0 20px;
+}
+
+
+td.iii {
+    background-color: rgb(70, 43, 226);
+}
+
+td.iii h1 {
+    color: red;
+    text-align: center;
+}
+
+td.iii h4 {
+    color: aqua;
+}
+
+td.iii p.inin {
+    background-color: aqua;
+    color: black;
+    margin: 0 40px;
+    padding: 50px 20px 100px;
+}
+
+td.iii p {
+    color: white;
+    text-align: justify;
+    padding: 0px 40px;
+}
+
+td.rrr {
+    background-color: gray;
+}
+
+td.rrr p {
+    color: white;
+    padding: 20px;
+}

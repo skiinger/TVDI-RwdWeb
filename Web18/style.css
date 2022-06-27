@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	}
+body{
+	background-color:#CCC;}
+h1{
+	font-size:60px;
+	text-align:center;
+	margin:10px;
+}
+
+.wrapper{
+	background-color:#FFF;
+	width:1200px;
+	margin:20px auto;
+	padding:20px;
+	display:flex;
+	justify-content:space-around;
+	font-size:20px;
+	}
+
+.box{
+	width:30%;
+	padding:20px;
+	box-sizing:border-box;
+	border:#333 3px solid;
+	border-radius:20px;
+	
+	}
+/*==============================*/
+.box1{
+	background-color:#F90;
+	font-family: 'Indie Flower', cursive;
+	}
+.box1 p{}
+.box1 p i{font-family: entypo;
+	font-style: normal;
+	vertical-align: middle;
+	font-size: 50px;
+	color: blue;
+}
+/*==============================*/
+.box2{
+	background-color:#9C0;
+	font-family: "Monoton";
+}
+.box2 ul{}
+.box2 ul li{}
+.box2 ul li b{
+	font-family: entypo;
+	font-size: 60px;
+	font-weight: normal;
+	margin-right: 10px;
+	vertical-align: middle;
+	color: rgb(195, 255, 0);
+}
+.box2 ul li a{}
+.box2 ul li a:hover{}
+
+/*==============================*/	
+.box3{
+	background-color:#09F;
+	font-family:"3Dumb" ;
+}
+.box3 ul{}
+.box3 li{}
+.box3 li a{
+	display: block;
+	width: 200px;
+	height: 60px;
+	background-color: rgb(33, 4, 255);
+	margin-bottom: 10px;
+	line-height: 60px;
+	text-decoration: none;
+	color: #FFF;
+	text-indent: 40px;
+}
+.box3  li a span{
+	font-family: entypo;
+	font-size: 50px;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.box3 li a:hover{
+	background-color: rgb(255, 0, 0);
+	color: rgb(251, 255, 0);
+}
+.box3 li a:hover span{
+	color: rgb(106, 255, 0);
+
+}
+
+
+	
+/*======字型嵌入======*/
+@font-face {
+	font-family:"3Dumb" ;
+	src: url("3Dumb.ttf");
+}
+@font-face {
+	font-family: "Monoton";
+	src: url("Monoton-Regular.ttf");
+}
+@font-face {
+	font-family: entypo;
+	src: url("Entypo-webfont.ttf"),url("Entypo-webfont.woff");
+}
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(banner.png);
+    margin: 0 auto;
+    width: 1000px;
+    height: 150px;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+
+}
+
+ul {
+    position: absolute;
+    left: 400px;
+    top: 20px;
+
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    background-repeat: no-repeat;
+    width: 98px;
+    text-align: center;
+    padding-top: 95px;
+    margin-right: 10px;
+}
+
+li.A a {
+    background-image: url(icon1.png);
+}
+
+li.B a {
+    background-image: url(icon2.png);
+}
+
+li.C a {
+    background-image: url(icon3.png);
+}
+
+li.D a {
+    background-image: url(icon4.png);
+}
+
+li.E a {
+    background-image: url(icon5.png);
+}
+
+li a:hover {
+    background-position: left top;
+}

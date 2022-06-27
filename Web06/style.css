@@ -1,0 +1,10 @@
+body {
+    background-color: aqua;
+}
+
+div {
+    background-color: azure;
+    color: red;
+    width: 1200px;
+    margin: 0 auto;
+}
