@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體";
+}
+
+.header {
+    height: 120px;
+}
+
+.header h1 {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.header h3 {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    display: none;
+}
+
+.header ul {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    display: flex;
+}
+
+.header .close {
+    display: none;
+}
+
+
+.header li {
+    list-style: none;
+}
+
+.header li a {
+    margin: 0 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header li a:hover {}
+
+.banner {
+    background-image: url(banner.jpg);
+    height: 500px;
+    color: rgb(255, 255, 255);
+}
+
+.banner .banner {
+    text-align: center;
+    width: 600px;
+    padding: 80px 0 0 100px;
+}
+
+.banner h1 {
+    font-size: 4em;
+    font-family: 'Lobster', cursive;
+}
+
+
+.banner p {
+    padding: 30px 0;
+}
+
+.banner img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.office {
+    word-wrap: break-word;
+    justify-content: center;
+    display: flex;
+}
+
+.office .ofbox {
+    width: 200px;
+    margin: 1rem 0;
+    text-align: center;
+    padding: 20px 20px 80px 20px;
+    color: white;
+    position: relative;
+}
+
+.office .ofbox img {
+    padding: 80% 0 0 0;
+    align-self: flex-end;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+.office .ofbox p {}
+
+.We {
+    background-color: rgb(145, 145, 145);
+    margin: 1rem 0;
+    height: 250px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.We h1 {
+    color: rgb(245, 114, 0);
+}
+
+.We p {
+    padding: 20px 400px;
+}
+
+
+.ad {
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.adbox {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.adbox p {
+    margin: 1em 3em;
+
+}
+
+.adbox a {
+    text-decoration: underline;
+
+}
+
+.ad img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.nav {
+    background-image: url(handbg.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.nav .navbox {
+    border-style: double;
+    border-color: grey;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 5px 20px;
+    text-align: center;
+    padding: 20px 0;
+    align-self: flex-end;
+}
+
+.nav .navbox h1 {
+    font-size: larger;
+    margin: 0 0 20px 0;
+}
+
+.nav .navbox p {
+    padding: 0 10px;
+}
+
+.nav .navbox ul {}
+
+.nav .navbox li {}
+
+.nav .navbox li a {}
+
+.nav .navbox li a:hover {}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20PX;
+}
+
+.footer h2 {}
+
+.footer p {
+    padding: 10px 0 0 0;
+}
+
+/*平板*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+
+    .banner .banner {
+        padding: auto;
+    }
+
+    .office {
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 45%;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .office .ofbox img {
+        display: none;
+    }
+
+    .office .ofbox p {}
+
+    .We p {
+        padding: 0;
+    }
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 50%;
+    }
+
+    .ad img {}
+
+
+
+    .nav {
+        flex-wrap: wrap;
+    }
+
+    .nav .navbox {
+        width: 30%;
+    }
+
+}
+
+/*手機*/
+@media screen and (max-width:768px) {
+    .header h3 {
+        display: block;
+    }
+
+    .header ul {
+        position: absolute;
+        right: 30px;
+        top: 70px;
+        width: 200px;
+        background-color: rgb(74, 69, 69);
+        padding: 20px;
+        display: none;
+    }
+
+    .header li {
+        list-style: none;
+    }
+
+    .header .close {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(255, 2, 2);
+        color: #FFF;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        right: -5px;
+        top: -5px;
+    }
+
+    .header li a {
+        display: block;
+        background-color: rgb(207, 103, 0);
+        margin: 10px 0;
+        height: 40px;
+        line-height: 40px;
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .header li a:hover {}
+
+    .banner .banner {
+        padding: 80px 0 0 0;
+    }
+
+
+    .office {
+        flex-wrap: wrap;
+    }
+
+    .office .ofbox {
+        width: 90%;
+        margin: 1%;
+        padding: 1%;
+
+    }
+
+    .office .ofbox img {
+        display: none;
+    }
+
+    .office .ofbox p {}
+
+    .ad {
+        flex-wrap: wrap;
+    }
+
+    .adbox {
+        width: 100%;
+    }
+
+    .ad img {}
+
+    .We p {
+        padding: 0;
+    }
+
+    .nav {}
+
+    .nav .navbox {
+        width: 60%;
+    }
+
+    .nav .navbox p {
+        display: none;
+    }
+}
